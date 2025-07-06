@@ -1,0 +1,27 @@
+#CLASS 1
+class India():
+    def capital(self):
+        print("New Delhi is the capital of India.")
+    def language(self):
+        print("Hindi is the most widely spoken language of India.")
+    def type(self):
+        print("India is a developing country.")
+
+#CLASS 2
+class Pakistan():
+    def capital(self):
+        print("Islamabad is the capital of Pakistan.")
+    def language(self):
+        print("Urdu is the most widely spoken language of Pakistan.")
+    def type(self):
+        print("Pakistan is a developing country.")
+
+#object creation
+obj_ind = India()
+obj_pak = Pakistan()
+
+#common interface
+for country in (obj_ind, obj_pak):
+  country.capital()
+  country.language()
+  country.type()
